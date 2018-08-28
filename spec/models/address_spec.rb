@@ -9,4 +9,10 @@ describe Address do
     it {should validate_presence_of(:zip)}
     it {should validate_presence_of(:student_id)}
   end
+  describe 'relationships' do
+    it "belongs to a student" do
+      address = Address.create(description: "mother's", street: "7315 Nugget Ct", city: "Madison", state: "Illinois", zip: 83413)
+      expect(address).to respond_to(:student)
+    end
+  end
 end

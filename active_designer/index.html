@@ -66,7 +66,7 @@
           <div class='card-header'>
             <i class="fa fa-arrows" aria-hidden="true"></i>
             <h4 class='card-title table-title' data-toggle='popover' data-trigger='hover' data-content='Edit table name'>
-              students
+              addresses
             </h4>
             <div class='table-nav-buttons'>
               <i class='fa fa-plus-square' data-toggle='popover' data-trigger='hover' data-content='Add column'></i>
@@ -85,6 +85,82 @@
               <li class='list-group-item' id='col-101-101'>
                 <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>string</span>
                 <div class='column-title-outer' >
+                  <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>description</span>
+                </div>
+                <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
+              </li>
+              
+              <li class='list-group-item' id='col-101-102'>
+                <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>string</span>
+                <div class='column-title-outer' >
+                  <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>street</span>
+                </div>
+                <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
+              </li>
+              
+              <li class='list-group-item' id='col-101-103'>
+                <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>string</span>
+                <div class='column-title-outer' >
+                  <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>city</span>
+                </div>
+                <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
+              </li>
+              
+              <li class='list-group-item' id='col-101-104'>
+                <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>string</span>
+                <div class='column-title-outer' >
+                  <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>state</span>
+                </div>
+                <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
+              </li>
+              
+              <li class='list-group-item' id='col-101-105'>
+                <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>integer</span>
+                <div class='column-title-outer' >
+                  <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>zip</span>
+                </div>
+                <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
+              </li>
+              
+              
+              <li class='list-group-item' id='ref-101-101'>
+                <span class='tag tag-default float-xs-left type-span'>integer</span>
+                <div class='column-title-outer' >
+                  <span class='column-title'>students_id</span>
+                </div>
+                <i class='fa fa-trash delete-ref' data-toggle='popover' data-trigger='hover' data-content='Destroy table'></i>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        
+          
+        
+      
+        <div class='card' id='tbl-102' style="top:10px;left:285px;">
+          <div class='card-header'>
+            <i class="fa fa-arrows" aria-hidden="true"></i>
+            <h4 class='card-title table-title' data-toggle='popover' data-trigger='hover' data-content='Edit table name'>
+              students
+            </h4>
+            <div class='table-nav-buttons'>
+              <i class='fa fa-plus-square' data-toggle='popover' data-trigger='hover' data-content='Add column'></i>
+              <i class='fa fa-trash delete-table' data-toggle='popover' data-trigger='hover' data-content='Destroy table'></i>
+            </div>
+          </div>
+          <div class='card-block'>
+            <ul class='list-group'>
+              <li class='list-group-item' id="tbl-102-id-column">
+                <span class='tag tag-default float-xs-left type-span'>integer</span>
+                <div class='column-title-outer' >
+                  <span class='column-title' >id</span>
+                </div>
+              </li>
+              
+              <li class='list-group-item' id='col-102-101'>
+                <span class='tag tag-default float-xs-left type-span' data-toggle='popover' data-trigger='hover' data-content='Edit type'>string</span>
+                <div class='column-title-outer' >
                   <span class='column-title' data-toggle='popover' data-trigger='hover' data-content='Edit column name'>name</span>
                 </div>
                 <i class='fa fa-trash delete-column' data-toggle='popover' data-trigger='hover' data-content='Destroy column'></i>
@@ -101,7 +177,7 @@
     </div>
   </div>
   <script>
-    localStorage.setItem("schema",JSON.stringify({"tbl-101":{"name":"students","original_name":"students","status":{"original":true,"modified":false,"new":false,"deleted":false},"columns":{"col-101-101":{"name":"name","original_name":"name","type":"string","original_type":"string","id":"col-101-101","status":{"original":true,"new":false,"modified":false,"deleted":false}}},"references":{},"id":"tbl-101"}}))
+    localStorage.setItem("schema",JSON.stringify({"tbl-101":{"name":"addresses","original_name":"addresses","status":{"original":true,"modified":false,"new":false,"deleted":false},"columns":{"col-101-101":{"name":"description","original_name":"description","type":"string","original_type":"string","id":"col-101-101","status":{"original":true,"new":false,"modified":false,"deleted":false}},"col-101-102":{"name":"street","original_name":"street","type":"string","original_type":"string","id":"col-101-102","status":{"original":true,"new":false,"modified":false,"deleted":false}},"col-101-103":{"name":"city","original_name":"city","type":"string","original_type":"string","id":"col-101-103","status":{"original":true,"new":false,"modified":false,"deleted":false}},"col-101-104":{"name":"state","original_name":"state","type":"string","original_type":"string","id":"col-101-104","status":{"original":true,"new":false,"modified":false,"deleted":false}},"col-101-105":{"name":"zip","original_name":"zip","type":"integer","original_type":"integer","id":"col-101-105","status":{"original":true,"new":false,"modified":false,"deleted":false}}},"references":{"ref-101-101":{"id":"ref-101-101","table_id":"tbl-101","foreign_table_name":"students","foreign_table_id":"tbl-102","status":{"original":true,"new":false,"deleted":false}}},"id":"tbl-101"},"tbl-102":{"name":"students","original_name":"students","status":{"original":true,"modified":false,"new":false,"deleted":false},"columns":{"col-102-101":{"name":"name","original_name":"name","type":"string","original_type":"string","id":"col-102-101","status":{"original":true,"new":false,"modified":false,"deleted":false}}},"references":{},"id":"tbl-102"}}))
   </script>
 
 </body>
